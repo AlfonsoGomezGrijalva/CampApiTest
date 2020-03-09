@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/CoreCodeCamp/v16/Server/sqlite3
+/.vs/CoreCodeCamp/v16
+/.vs/CampApiTest/v16
