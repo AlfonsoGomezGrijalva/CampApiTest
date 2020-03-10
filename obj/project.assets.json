@@ -1118,6 +1118,18 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.TagHelpers.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Mvc.Versioning/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "[2.2.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Mvc.ViewFeatures/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -5641,6 +5653,25 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.TagHelpers.xml",
         "microsoft.aspnetcore.mvc.taghelpers.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.taghelpers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Mvc.Versioning/4.0.0": {
+      "sha512": "i4hwrKQHHTcJdtE87ocbJD9raVYW4EVCI0oX1KipiJncNAdoLzoJGSZnANgqnCwk2ZH34SugO3BDAQ/2gSvtsA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.mvc.versioning/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.Versioning.dll",
+        "lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.Versioning.pdb",
+        "lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.Versioning.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.pdb",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.xml",
+        "microsoft.aspnetcore.mvc.versioning.4.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.versioning.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Mvc.ViewFeatures/2.2.0": {
@@ -13101,6 +13132,7 @@
     ".NETCoreApp,Version=v2.2": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 5.0.1",
       "Microsoft.AspNetCore.App >= 2.2.0",
+      "Microsoft.AspNetCore.Mvc.Versioning >= 4.0.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.4"
@@ -13152,6 +13184,10 @@
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "Microsoft.AspNetCore.Mvc.Versioning": {
+            "target": "Package",
+            "version": "[4.0.0, )"
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",

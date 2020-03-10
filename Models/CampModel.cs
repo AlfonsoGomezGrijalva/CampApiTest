@@ -14,9 +14,9 @@ namespace CoreCodeCamp.Models
         [Required]
         public string Moniker { get; set; }
         public DateTime EventDate { get; set; } = DateTime.MinValue;
-        [Range(1, 100)]
+        [Range(1,100)]
         public int Length { get; set; }
-
+         
         public string Venue { get; set; }
         public string LocationAddress1 { get; set; }
         public string LocationAddress2 { get; set; }
